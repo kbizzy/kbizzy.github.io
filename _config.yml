@@ -1,0 +1,21 @@
+# Site settings
+title: BIzzy Momma
+header-img: img/home-bg.png
+email: kbuckizzy@gmail.com
+copyright_name: kbizzy
+description: > # this means to ignore newlines until "baseurl:"
+  I do it for them <3 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  kbizzy
+learn_profile: kbizzy
+email_username: kbuckizzy@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
